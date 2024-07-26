@@ -24,7 +24,7 @@ const Tasks = () => {
     if (bot && battery) {
       data = bot + " " + battery + " D2";
       sendData(data);
-      console.log(data);
+      // console.log(data);
     }
     setBot(null);
     setBattery(null);
