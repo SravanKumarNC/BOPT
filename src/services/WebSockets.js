@@ -1,5 +1,5 @@
 const sendData = (message) => {
-  const ws = new WebSocket("ws://192.168.34.135:8765");
+  const ws = new WebSocket("wss://192.168.34.135:8765");
 
   ws.onopen = () => {
     console.log("connected to websocket server");
